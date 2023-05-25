@@ -17,12 +17,12 @@ namespace OtelProjesi
       
         public VeriTabani()
         {
-          con=  new SqlConnection("Data Source=DESKTOP-1E3PP0A;Initial Catalog=OTEL;Integrated Security=True");
+          con=  new SqlConnection("Data Source=.;Initial Catalog=OTEL;Integrated Security=True");
         }
 
         public SqlConnection baglanti()
         {
-            con = new SqlConnection("Data Source=DESKTOP-1E3PP0A;Initial Catalog=OTEL;Integrated Security=True");
+            con = new SqlConnection("Data Source=.;Initial Catalog=OTEL;Integrated Security=True");
             con.Open();
             return baglanti();
         }
